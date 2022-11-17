@@ -1,0 +1,307 @@
+
+body header{
+    color:white;
+    background-color:rgb(3, 60, 11) ;
+}
+
+body section{
+    background-color:rgb(3, 60, 11)  ;
+
+}
+
+body footer{
+    background-color:rgb(3, 60, 11)  ;
+}
+
+.navbar{
+    background-color: rgb(3, 60, 11)  ;
+    height: 80px;
+}
+
+.navbar-brand{
+    color: white;
+    text-align: center;
+    margin-left: 30px;
+    width: 100px;
+
+}
+
+#fondo{
+    background-image: url("../img/fondoSect.jpg");
+    height:600px;
+    padding-top: 30px;
+}
+.row-head{
+    width: 700px;
+    height:150px;
+    margin-left: 25%;
+    margin-top: 13%;
+    text-align:center;
+}
+.boton{
+    background-color:rgb(17, 161, 31);
+    color:white;
+    width: 160px;
+    height: 60px; ;
+    font-size: larger;
+    margin-top: 25px;
+    border-radius: 8%;
+}
+.form-control{
+    margin-left: 30px;
+    width: 80px;
+    height: 45px;
+}
+.bton{
+    background-color: rgb(17, 161, 31);
+    border-radius: 15%;
+    width: 90px;
+    height: 45px;
+    color: white;
+    margin-left: 8px;
+}
+
+/*AQUI TERMINA EL header */
+
+
+/*AQUI COMIENZA EL SECTION*/
+
+.b{
+    width: 50px;
+    color: black;
+    background-color:rgb(17, 161, 31);
+}
+
+.fav{
+    text-align:center;
+    margin-left:31%;
+    margin-bottom: 50px;
+    padding-top: 40px;
+    width:600px;
+    color:white;
+}
+.container-section{
+    margin-bottom: 50px;
+}
+
+.card{
+    text-align:center;
+    margin-left:100px;
+    margin-bottom: 50px;
+    height:500px;
+    
+}
+
+#info{
+    background-color: black;
+    color:white;
+    height: 500px;
+    padding-top: 120px;
+}
+
+/* #boton{
+    
+    background-color: rgb(17, 161, 31);
+    border-radius: 15%;
+    width: 120px;
+    height: 45px;
+    color: white;
+    margin-left: 8px;
+} */
+
+/* #iniciarSesionbtn{
+    background-color: rgb(3, 60, 11);
+    color: white;
+} */
+
+#reg{
+    text-align: center;
+    border:groove 1px rgb(235, 0, 0);
+    margin-left: 25%;
+    margin-bottom: 20px;
+    padding: 30px;
+    width: 700px;
+    height: 220px;
+}
+
+/*EMPIEZA ANIM ICON*/
+.icono{
+    border-radius:80%;
+    border: 3px solid rgb(3, 60, 11);
+    transition: all 1s ease;
+    padding: 2px;
+}
+
+.icono:hover{
+    border-radius:85%;
+    border: 4px solid white;
+    box-shadow: 0 0 15px #00ff1a;
+    transition: all 1s ease;
+    padding: 6px;
+}
+.icono-footer{
+    border-radius:80%;
+    border: 3px solid rgb(3, 60, 11);
+    transition: all 1s ease;
+    padding: 2px;
+}
+.icono-footer:hover{
+    border-radius:85%;
+    border: 4px solid white;
+    box-shadow: 0 0 15px #00ff1a;
+    transition: all 1s ease;
+    padding: 6px;
+}   
+
+/*TERMINA ANIM ICON*/
+
+/*ANIMACIONES */
+@keyframes card{
+    0%{
+        text-shadow: 0 0 5px #000000;
+        color:cornsilk;
+    }
+    50%{
+        text-shadow: 0 0 10px #000000 ;
+    }
+    100%{
+        color:black;
+        text-shadow: 0 0 20px #000000;
+    }   
+}
+#card:hover{
+    animation-name: card;
+    animation-duration:2s;
+    animation-fill-mode:backwards;
+
+}
+
+
+@keyframes text{
+    0%{
+        color:white;
+        text-shadow: 0 0 5px #00ff1a;
+    }
+    50%{
+        text-shadow: 0 0 10px #00ff1a ;
+    }
+    100%{
+        color:#00ff1a;
+        text-shadow: 0 0 17px #00ff1a;
+    }   
+}
+.navbar-brand:hover{   
+    animation-name: text;
+    animation-duration:1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes cards{
+    0%{
+        height: 500;
+    }
+    50%{
+        height: 510 ;
+    }
+    100%{
+        height: 520;
+    }   
+}
+
+/*boton neon iniciar sesion y registro*/
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    border-color: rgb(117, 245, 113);
+    color: rgba(0, 0, 0, 0.904);
+    font-weight:bolder;
+    background-color: rgb(5, 109, 19);
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 13px;
+    overflow: hidden;
+    transition: 0.1s;
+}
+.btn-neon:hover{
+    background: #00d647;
+    box-shadow: 0 0 3px #00d647, 0 0 15px #00d647, 0 0 30px #00d647;
+    transition-delay: 0,1s;
+ }
+.btn-neon span{
+    position: absolute;
+    display: block;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent,#00d647);
+ }
+ .btn-neon:hover #span1{
+    left: 100%;
+    transition: 0,1s;
+}
+ #span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent,#00d647);
+}
+ .btn-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+#span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#00d647);
+}
+.btn-neon:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#00d647);
+}
+.btn-neon:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+/*fin botones*/
+
+/*AQUI TERMINA EL SECTION */
+
+
+
+/*AQUI COMIENZA EL FOOTER*/
+.container-footer{
+    color:white;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.enlaces{
+    margin-left:30px;
+    color:rgb(17, 161, 31);
+    margin-top: 10px;
+    display:inline-flex;
+
+}
+#caja{
+    width: 300px;
+    height: 80px;
+    margin-left: 30px;
+}
+/*AQUI TERMINA EL FOOTER*/
+

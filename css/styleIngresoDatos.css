@@ -1,0 +1,179 @@
+#caja{
+    width: 300px;
+    height: 80px;
+    margin-left: 30px;
+}
+
+
+
+/* header */
+body header{
+    color:white;
+    background-color:rgb(3, 60, 11) ;
+}
+.navbar{
+    background-color: rgb(3, 60, 11)  ;
+    height: 80px;
+}
+
+.navbar-brand{
+    color: white;
+    text-align: center;
+    margin-left: 30px;
+    width: 100px;
+}
+
+/* #fondo{
+    background-color:rgb(0, 0, 0);
+    height: 800px;
+    padding-top: 30px;
+}*/
+
+.row-head{
+    /* background-color: rgb(32, 32, 32); */
+    width: 600px;
+    height: 550px;
+    /*margin-left: 30%;*/
+    margin-bottom: 10%;
+    text-align: center;
+   /* background-image: url(../img/fondo2IngresoDatos.jpg);*/
+}
+
+/*
+#reg{
+    text-align: center;
+    border:groove 1px rgb(235, 0, 0);
+    margin-left: 25%;
+    margin-bottom: 40px;
+    padding: 30px;
+    width: 600px;
+    height: 550px;
+}
+*/
+section{
+    background-image: url(../img/fondoIngresoDatos.jpg);
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#fondo{
+    text-align: center;
+    border:groove 2px rgb(235, 0, 0);
+    padding: 30px;
+    width: 650px;
+    height: 550px;
+    background-color:rgb(0, 0, 0);
+}
+
+
+body h3{
+    color:white
+}
+
+body label{
+    color: white;
+}
+
+
+.boton{
+    background-color:rgb(17, 161, 31);
+    color:white;
+    width: 160px;
+    height: 60px; ;
+    font-size: larger;
+    margin-top: 25px;
+    border-radius: 8%;
+}
+.form-control{
+    margin-left: 30px;
+    width: 80px;
+    height: 45px;
+}
+.bton{
+    background-color: rgb(17, 161, 31);
+    border-radius: 15%;
+    width: 90px;
+    height: 45px;
+    color: white;
+    margin-left: 8px;
+}
+
+/*AQUI TERMINA EL header */
+/*EMPIEZA ANIM ICON*/
+.icono{
+    border-radius:80%;
+    border: 3px solid rgb(3, 60, 11);
+    transition: all 1s ease;
+    padding: 2px;
+}
+
+.icono:hover{
+    border-radius:85%;
+    border: 4px solid white;
+    box-shadow: 0 0 15px #00ff1a;
+    transition: all 1s ease;
+    padding: 6px;
+}
+.icono-footer{
+    border-radius:80%;
+    border: 3px solid rgb(3, 60, 11);
+    transition: all 1s ease;
+    padding: 2px;
+}
+.icono-footer:hover{
+    border-radius:85%;
+    border: 4px solid white;
+    box-shadow: 0 0 15px #00ff1a;
+    transition: all 1s ease;
+    padding: 6px;
+}   
+
+/*TERMINA ANIM ICON*/
+/*ANIMACIONES */
+@keyframes text{
+    0%{
+        color:white;
+        text-shadow: 0 0 5px #00ff1a;
+    }
+    50%{
+        text-shadow: 0 0 10px #00ff1a ;
+    }
+    100%{
+        color:#00ff1a;
+        text-shadow: 0 0 17px #00ff1a;
+    }   
+}
+.navbar-brand:hover{   
+    animation-name: text;
+    animation-duration:1s;
+    animation-fill-mode: forwards;
+}
+
+.input{
+    width: 300px;
+    height:55px;
+}
+
+
+/* footer */
+body footer{
+    background-color:rgb(3, 60, 11)  ;
+}
+.container-footer{
+    color:white;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.enlaces{
+    margin-left:30px;
+    color:rgb(17, 161, 31);
+    margin-top: 10px;
+    display:inline-flex;
+
+}
+#caja{
+    width: 300px;
+    height: 80px;
+    margin-left: 30px;
+}
+

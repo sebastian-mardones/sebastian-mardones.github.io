@@ -1,0 +1,160 @@
+
+body header{
+    color:white;
+    background-color:rgb(3, 60, 11) ;
+    
+}
+
+
+body footer{
+    background-color:rgb(3, 60, 11)  ;
+}
+
+/* .navbar{
+    background-color: rgb(3, 60, 11)  ;
+    height: 80px;
+} */
+
+.navbar-brand{
+    color: white;
+    text-align: center;
+    margin-left: 30px;
+    width: 100px;
+
+}
+
+#fondo{
+    background-color:rgb(0, 0, 0);
+    height:600px;
+    padding-top: 30px;
+}
+
+.row-head{
+    background-color: rgb(32, 32, 32);
+    width: 500px;
+    height: 400px;
+    margin-left: 32%;
+    margin-top: 5%;
+    text-align: center;
+}
+/* .boton{
+    background-color:rgb(17, 161, 31);
+    color:white;
+    width: 160px;
+    height: 60px; ;
+    font-size: larger;
+    margin-top: 25px;
+    border-radius: 8%;
+} */
+/* .form-control{
+    margin-left: 30px;
+    width: 80px;
+    height: 45px;
+} */
+/* .bton{
+    background-color: rgb(17, 161, 31);
+    border-radius: 15%;
+    width: 90px;
+    height: 45px;
+    color: white;
+    margin-left: 8px;
+} */
+
+/*AQUI TERMINA EL header */
+
+/*EMPIEZA ANIM ICON*/
+.icono{
+    border-radius:80%;
+    border: 3px solid rgb(3, 60, 11);
+    transition: all 1s ease;
+    padding: 2px;
+}
+
+.icono:hover{
+    border-radius:85%;
+    border: 4px solid white;
+    box-shadow: 0 0 15px #00ff1a;
+    transition: all 1s ease;
+    padding: 6px;
+}
+.icono-footer{
+    border-radius:80%;
+    border: 3px solid rgb(3, 60, 11);
+    transition: all 1s ease;
+    padding: 2px;
+}
+.icono-footer:hover{
+    border-radius:85%;
+    border: 4px solid white;
+    box-shadow: 0 0 15px #00ff1a;
+    transition: all 1s ease;
+    padding: 6px;
+}   
+
+/*TERMINA ANIM ICON*/
+/*ANIMACIONES */
+@keyframes text{
+    0%{
+        color:white;
+        text-shadow: 0 0 5px #00ff1a;
+    }
+    50%{
+        text-shadow: 0 0 10px #00ff1a ;
+    }
+    100%{
+        color:#00ff1a;
+        text-shadow: 0 0 17px #00ff1a;
+    }   
+}
+.navbar-brand:hover{   
+    animation-name: text;
+    animation-duration:1s;
+    animation-fill-mode: forwards;
+}
+
+/*ingreso datos*/
+body h5{
+    color:white;
+    margin-top: 20px;
+}
+
+body h3 {
+    color:white;
+    margin-top: 0px;
+}
+
+body hr{
+    color: black;
+}
+
+#correo{
+    width: 300px;
+    height: 30px;
+}
+
+#password{
+    width: 300px;
+    height: 30px;
+}
+
+
+/*AQUI COMIENZA EL FOOTER*/
+.container-footer{
+    color:white;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.enlaces{
+    margin-left:30px;
+    color:rgb(17, 161, 31);
+    margin-top: 10px;
+    display:inline-flex;
+
+}
+#caja{
+    width: 300px;
+    height: 80px;
+    margin-left: 30px;
+}
+
+
