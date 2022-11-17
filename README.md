@@ -1,2 +1,3 @@
 # sebastian-mardones.github.io
-primer proyecto de diseño web
+este es mi primer proyecto de diseño web
+html,css,php
